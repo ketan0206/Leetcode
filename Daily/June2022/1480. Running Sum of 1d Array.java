@@ -6,7 +6,10 @@ https://leetcode.com/problems/running-sum-of-1d-array/
 
 */
 
-
+/*
+TC : O(n)
+SC : O(n)
+*/
 class Solution {
     public int[] runningSum(int[] nums) {
         
@@ -19,3 +22,7 @@ class Solution {
         
     }
 }
+
+/*
+The solution could be implemented in the same input array aswell by modifying the elements, this way space complexity can be removed, since it will become in place.
+*/
