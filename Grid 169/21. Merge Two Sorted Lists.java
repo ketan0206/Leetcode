@@ -43,7 +43,7 @@ class Solution {
             curr.next = null; // important step to cut connection of node from existing linked list.
         }
         
-        curr.next = l1 == null ? l2 : l1; // nice way to append one of the remaining two linked list of result.
+        curr.next = l1 == null ? l2 : l1; // nice way to append one of the remaining two linked list to result.
         
         return result.next;
         
