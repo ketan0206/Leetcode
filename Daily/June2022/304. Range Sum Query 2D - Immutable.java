@@ -10,8 +10,8 @@ Trading off space to better time complexity and pre computation.
 */
 
 /*
-TC : O(r*c)
-SC : O(1)
+TC : O(1) time per query, O(mn)O(mn) time pre-computation. The pre-computation in the constructor takes O(mn)O(mn) time. Each sumRegion query takes O(1)O(1) time.
+SC : O(m*n)
 */
 class NumMatrix {
 	// dp solution
