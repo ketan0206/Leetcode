@@ -7,8 +7,8 @@ https://leetcode.com/problems/n-queens-ii/
 */
 
 /*
-TC : O(n)
-SC : O(n+2*n+2*n) = O(n) 
+TC : 
+SC : 
 */
 class Solution {
     int count = 0;
